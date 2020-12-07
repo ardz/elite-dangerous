@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<Root PresetName="x56-GG-VA" MajorVersion="3" MinorVersion="0">
+<Root PresetName="X56-GG-VA" MajorVersion="3" MinorVersion="0">
 	<KeyboardLayout>en-GB</KeyboardLayout>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="0" />
@@ -620,7 +620,7 @@
 	</OpenCodexGoToDiscovery>
 	<PlayerHUDModeToggle>
 		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="SaitekX56Throttle" Key="Joy_12" />
+		<Secondary Device="{NoDevice}" Key="" />
 	</PlayerHUDModeToggle>
 	<ExplorationFSSEnter>
 		<Primary Device="{NoDevice}" Key="" />
@@ -826,7 +826,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</GalaxyMapHome>
 	<ToggleDriveAssist>
-		<Primary Device="SaitekX56Joystick" Key="Joy_6" />
+		<Primary Device="{NoDevice}" Key="" />
 		<Secondary Device="Keyboard" Key="Key_A">
 			<Modifier Device="Keyboard" Key="Key_D" />
 		</Secondary>
@@ -892,7 +892,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</BuggySecondaryFireButton>
 	<AutoBreakBuggyButton>
-		<Primary Device="SaitekX56Joystick" Key="Joy_5" />
+		<Primary Device="SaitekX56Joystick" Key="Joy_6" />
 		<Secondary Device="Keyboard" Key="Key_H">
 			<Modifier Device="Keyboard" Key="Key_D" />
 		</Secondary>
@@ -1070,7 +1070,7 @@
 	</OpenCodexGoToDiscovery_Buggy>
 	<PlayerHUDModeToggle_Buggy>
 		<Primary Device="Keyboard" Key="Key_M" />
-		<Secondary Device="SaitekX56Throttle" Key="Joy_12" />
+		<Secondary Device="SaitekX56Throttle" Key="Joy_18" />
 	</PlayerHUDModeToggle_Buggy>
 	<HeadLookToggle_Buggy>
 		<Primary Device="SaitekX56Joystick" Key="Joy_4" />
@@ -1278,11 +1278,11 @@
 		<ToggleOn Value="1" />
 	</ToggleReverseThrottleInputFreeCam>
 	<MoveFreeCamForward>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_W" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamForward>
 	<MoveFreeCamBackwards>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_S" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamBackwards>
 	<MoveFreeCamX>
@@ -1291,11 +1291,11 @@
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamX>
 	<MoveFreeCamRight>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_D" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamRight>
 	<MoveFreeCamLeft>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_A" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamLeft>
 	<MoveFreeCamZ>
@@ -1314,15 +1314,15 @@
 		<Deadzone Value="0.00000000" />
 	</MoveFreeCamDownAxis>
 	<MoveFreeCamUp>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Z" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamUp>
 	<MoveFreeCamDown>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_X" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</MoveFreeCamDown>
-	<PitchCameraMouse Value="" />
-	<YawCameraMouse Value="" />
+	<PitchCameraMouse Value="Bindings_MousePitch" />
+	<YawCameraMouse Value="Bindings_MouseYaw" />
 	<PitchCamera>
 		<Binding Device="{NoDevice}" Key="" />
 		<Inverted Value="0" />
@@ -1358,11 +1358,11 @@
 		<Deadzone Value="0.00000000" />
 	</RollCamera>
 	<RollCameraLeft>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_Q" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RollCameraLeft>
 	<RollCameraRight>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Keyboard" Key="Key_E" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</RollCameraRight>
 	<ToggleRotationLock>
@@ -1390,11 +1390,11 @@
 		<Secondary Device="{NoDevice}" Key="" />
 	</ToggleAdvanceMode>
 	<FreeCamZoomIn>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Pos_Mouse_ZAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamZoomIn>
 	<FreeCamZoomOut>
-		<Primary Device="{NoDevice}" Key="" />
+		<Primary Device="Mouse" Key="Neg_Mouse_ZAxis" />
 		<Secondary Device="{NoDevice}" Key="" />
 	</FreeCamZoomOut>
 	<FStopDec>
